@@ -1,0 +1,332 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Attachment: Cinema</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding-top: 50px; 
+            padding-bottom: 50px; 
+        }
+        .content {
+            text-align: left;
+        }
+
+        h1, h2, h4 {
+            font-weight: bold; /* Added this line to make the titles bold */
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            height: 300px; 
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-start">Place Attachment: Cinema</h1>
+        <p class="content">Place attachment is "a cognitive and emotional bond that individuals form with a particular place" (Scannell & Gifford, 2014), and people form attachments to specific places through various factors, experiences, memories, and emotions. Place attachment can appear in various spaces, but it is particularly important for cinema as a familiar space where people can escape from the stress of everyday life and as a place where they can enjoy cultural life most easily and economically. Accordingly, my friends and I conducted a survey focusing on five factors that determine place attachment: personal, social, physical, cultural, and benefit factors, in order to understand more deeply what cinema means to people and how they form place attachment to cinema. This report includes the results of collecting data, creating statistics for each question, and analyzing them.
+        </p>
+
+        <!-- Personal Factors -->
+        <h2 class="content mt-4">I. Personal Factors</h2>
+        <p class="content">An individual's personality, experiences, and memories that form a sense of belonging to a particular place have a significant impact on place attachment.</p>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <h4 class="content">1.1. On average, how many times do you go to the cinema per month?</h4>
+                <div class="chart-container">
+                    <canvas id="visitFrequencyChart"></canvas>
+                </div>
+                <p class="content">Seventy-five percent of the respondents said they go to the cinema at least once a month, also the other twenty-five percent of the respondents said that they go to the cinema more often. This question shows that respondents go to the cinema quite a lot, so it can be assumed that they will form a place attachment to the cinema as much as they have visited often. In addition, it can be inferred that most of the respondents are pretty active in watching movies through the survey, therefore, it can be assumed that cultural activities such as movies are important medium for them to spend meaningful time in their daily lives.</p>
+            </div>
+            <div class="col-md-6 mb-4">
+                <h4 class="content">1.2. What kind of cinema do you prefer to visit?</h4>
+                <div class="chart-container">
+                    <canvas id="cinemaTypeChart"></canvas>
+                </div>
+                <p class="content">About seventy percent of the respondents said they preferred “Newer multiplex cinemas” when watching movies. In addition to having the best system for watching movies, “Newer multiplex cinemas” also have various auxiliary facilities around it, such as arcades and shopping malls, so it can be assumed that most of the respondents who chose “Newer multiplex cinemas” want to spend a variety of time in their busy daily lives. In addition, local cinemas, which is preferred by fifty percent of the respondents, have the advantage of being convenient to visit due to its accessibility, and if they are the cinemas around their house, it can be assumed that they have visited the cinemas for quite a long time to form an attachment. Also, from the preference for drive-in cinemas answered by forty-two percent of respondents, it can be inferred that respondents consider an atmosphere such as romantic or intimate when watching movies, and VIP Cinema, selected by another forty-two percent of the respondents, shows that they prefer a comfortable environment.
+                </p>
+            </div>
+        </div>
+
+        <!-- Social Factors -->
+        <h2 class="content mt-4">II. Social Factors</h2>
+        <p class="content">An individual's personality, experiences, and memories that form a sense of belonging to a particular place have a significant impact on place attachment.</p>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <h4 class="content">2.1. When you go to the cinema, who do you go with?</h4>
+                <div class="chart-container">
+                    <canvas id="companionChart"></canvas>
+                </div>
+                <p class="content">Thirty-four percent of the participants said that they mostly go to the movies with friends. Twenty-five percent each said that they go “alone” or “with a partner.” Only eight percent of the respondents go to the movies in groups, such as with their families or coworkers. Therefore, the researchers assume that respondents who like to go to the movies alone want to focus more and enjoy the movie. On the other hand, those who go to the movies with others want to develop relationships and form emotional bonds.</p>
+            </div>
+            <div class="col-md-6 mb-4">
+                <h4 class="content">2.2. Have you ever celebrated a birthday, anniversary or holiday at the cinema?</h4>
+                <div class="chart-container">
+                    <canvas id="celebrateChart"></canvas>
+                </div>
+                <p class="content">Fifty percent of respondents said they have celebrated their birthdays at the cinema, while twenty-five percent each celebrated holidays and Valentine's Day. Respondents assume that they celebrate special days with friends, family, and acquaintances at the cinema and experience meaningful and memorable memories. This shows that the cinema is an important place that gives people meaning in their lives.</p>
+        </div>
+    </div>
+
+        <!-- Physical Factors -->
+        <h2 class="content mt-4">III. Physical Factors</h2>
+        <p class="content">The physical factors of a place's architectural design, typological structure, scale, and location play a significant role in forming attachment.</p>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                    <h4 class="content">3.1. What factors are important to enjoy your cinema experience?</h4>
+                    <div class="chart-container">
+                        <canvas id="enjoyChart"></canvas>
+                    </div>
+                    <p class="content">Approximately sixty percent of the respondents replied a “High quality screen” is the most important factor of the cinema experience. “High quality sound” and a “Comfortable chair” are the second important factor for fifty percent of respondents and third important factor for forty-two percent of respondents. Respondents value “High quality screen”, “High quality sound”, and “Comfortable chair”, which are the basic factors of a cinema, more than the external factors such as shopping, gaming facilities and bars. Thus, the researchers can predict that respondents want to enjoy enough and focus more and have a meaningful time in the cinema through the basic factors.</p>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <h4 class="content">3.2. The location and accessibility will influence your choice of cinema.</h4>
+                    <div class="chart-container">
+                        <canvas id="locationChart"></canvas>
+                    </div>
+                    <p class="content">This statement is related to the effect of location and accessibility on cinema selection. Respondents could choose the level of whether they “Agree or Disagree” with this statement. No one answered, “Strongly Disagree” or “Disagree” while sixty-seven percent of respondents replied “Agree” and thirty-three percent of respondents replied, “Strongly agree”. With these positive responses, respondents are highly considering the location and accessibility when they choose a cinema, and the closer distance makes the stronger bond between the respondent and the cinema.</p>
+                </div>
+            </div>
+
+        <!-- Cultural Factors -->
+        <h2 class="content mt-4">IV. Cultural Factors</h2>
+        <p class="content">Cultural factors of place attachment include the lifestyle, history, and events of a particular community or place.</p>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <h4 class="content">4.1. The online streaming service can replace the cultural influence of the local cinema.</h4>
+                <div class="chart-container">
+                    <canvas id="onlineChart"></canvas>
+                </div>
+                <p class="content">Seventeen percent of respondents replied “Agree” and “Strongly Agree” respectively. These days, media streaming services such as Netflix, Amazon Prime, Apple TV and along with others are becoming popular. One of the reasons is that people can watch the movie without restrictions of place and time. Nevertheless, respondents who answered as “Disagree” were fifty percent, and “Strongly Disagree” was eight percent. They think when people go to the cinema, people are not usually disturbed, unlike watching movies via internet streaming services. In accordance with the responds, researchers believe that online streaming services are hard to alter the identity and symbol of the cinema.</p>
+            </div>
+            <div class="col-md-6 mb-4">
+                <h4 class="content">4.2. On a scale of 1-5, Has the cinema enhanced your appreciation and understanding of culture?</h4>
+                <div class="chart-container">
+                    <canvas id="enhancedChart"></canvas>
+                </div>
+                <p class="content">About seventy percent of the respondents answered that they had a positive influence. When people living in Asian cultures watch Western-made films, they can indirectly learn about other cultures through them. For example, they can come into contact with Western foods, fashion styles, and architectural features, and these experiences contribute to broadening cultural understanding. For this reason, it seems that about seventy percent of the respondents answered that watching the film enhanced their cultural understanding. On the other hand, eight percent answered that it was of little help to their cultural understanding, and twenty-five percent evaluated it as being at an average level, suggesting that the diversity of film programs may play an important role in enhancing cultural appreciation.</p>
+        </div>
+    </div>
+
+            <!-- Benefit Factors -->
+            <h2 class="content mt-4">V. Benefit Factors</h2>
+            <p class="content">Benefits are an essential element of place attachment that have positive mental and psychological impacts on individuals and groups.</p>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h4 class="content">5.1. What kind of factors have been the biggest influence on you at the cinema?</h4>
+                    <div class="chart-container">
+                        <canvas id="influenceChart"></canvas>
+                    </div>
+                    <p class="content">The benefit factor that had the greatest influence on respondents was "Impacting on Emotions" which fifty percent of respondents chose. They said this because the movie stimulates their thoughts and affects their emotion. Twenty-five percent of respondents replied, "Changing the Way of Thinking". For example, even if the respondents watched the same movie as a child and as an adult, the different viewpoints led them to a new way of thinking. Twelve percent of the respondents that answer “Gaining Motivation” feel to make more personal growth in their lives. Eight percent of respondents selected "Experiencing Indirectly" because they were able to feel unrealistic experiences that are not in normal life. However, no one mentioned that "Acquiring of Knowledge" had the greatest influence because it does not affect someone who has learned basic knowledge through education. </p>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <h4 class="content">5.2. How do you feel after going to the cinema?</h4>
+                    <div class="chart-container">
+                        <canvas id="feelChart"></canvas>
+                    </div>
+                    <p class="content">In the last question of the benefit factor, how respondents felt after going to the cinema. Fifty percent of the respondents answered they were “Satisfaction” because of the high-quality screen, sound, and variety of snacks which respondents cannot experience at home. Twenty-five percent of the respondents chose “Pleasure”, the reason is that they feel diverse emotions and share them to form a bond. Seventeen percent of respondents answered "Heartwarming," when respondents watch a movie, they get empathy by seeing someone's expression and emotions. Only eight percent of the respondents who went to the cinema alone felt socially isolated respondent mentioned "Loneliness." Since the cinema brings good memories or positive influence on respondents, no one answered "Anger," "Depression," or "Regret". </p>
+            </div>
+        </div>
+
+        <h2 class="content mt-4">Conclusion</h2>
+        <p class="content">Through this study, researchers have discovered that place attachment to cinemas is not solely based on the act of watching movies but is deeply rooted in personal memories and emotions. The large screen and immersive sound provide a unique experience that cannot be replicated at home, making cinema visits special. Whether alone or with friends, the enjoyment of snacks and beverages in a dedicated environment enhances the experience. Additionally, cultural events such as film re-releases and fan meetings foster a sense of community and strengthen social bonds. These shared moments contribute to making cinemas a significant place for creating lasting memories with family, friends, and partners. While the convenience of online streaming services has grown, the emotional and social aspects of cinema continue to draw people in, reinforcing their attachment to these spaces. Ultimately, these collective experiences make cinemas more than just a place to watch films—they serve as hubs of cultural connection and personal significance, fostering a sense of belonging among audiences.</p>
+    
+    <script>
+        const visitFrequencyData = {
+            labels: ["1-2 times per month", "3-4 times per month", "5+ times per month"],
+            datasets: [{
+                label: "Percentage of Respondents",
+                data: [75, 17, 8],
+                backgroundColor: ["#FFE2E8", "#FEBFC7", "#B4C9E1"],
+            }]
+        };
+        new Chart(document.getElementById("visitFrequencyChart"), {
+            type: "bar",
+            data: visitFrequencyData,
+            options: { 
+                responsive: true,
+                maintainAspectRatio: true, 
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        const cinemaTypeData = {
+            labels: ["Newer multiplex cinemas", "Local cinemas", "Drive-in cinemas", "VIP cinemas"],
+            datasets: [{
+                data: [67, 50, 42, 42],
+                backgroundColor: ["#FFE2E8", "#FEBFC7", "#B4C9E1", "#CCE7F6"],
+            }]
+        };
+        new Chart(document.getElementById("cinemaTypeChart"), {
+            type: "pie",
+            data: cinemaTypeData,
+            options: { 
+                responsive: true,
+                maintainAspectRatio: true
+            }
+        });
+
+        const companionData = {
+            labels: ["Alone", "Friends", "Family", "Acquaintances", "Romantic partner", "Group"],
+            datasets: [{
+                label: "Percentage of Respondents",
+                data: [25, 34, 8, 0, 25, 8],
+                backgroundColor: ["#FFE2E8", "#FEBFC7", "#B5B8B8", "#D4D4D4", "#B4C9E1","#CCE7F6"],
+            }]
+        };
+        new Chart(document.getElementById("companionChart"), {
+            type: "bar",
+            data: companionData,
+            options: { 
+                responsive: true,
+                maintainAspectRatio: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        const celebrateData = {
+            labels: ["Birthday", "Anniversary", "Holiday", "Valentine's day", "Other celebration days"],
+            datasets: [{
+                label: "Percentage of Respondents",
+                data: [50, 0, 25, 25, 0],
+                backgroundColor: ["#FFE2E8", "#FEBFC7", "#FEBFC7", "#B4C9E1", "#B4C9E1"],
+            }]
+        };
+        new Chart(document.getElementById("celebrateChart"), {
+            type: "bar",
+            data: celebrateData,
+            options: { 
+                responsive: true,
+                maintainAspectRatio: true, 
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });    
+
+        const enjoyData = {
+            labels: ["High quality screen", "High quality sound", "Comfortable chair", "Snacks and beverage", "Clean facilities"],
+            datasets: [{
+                label: "Percentage of Respondents",
+                data: [58, 50, 42, 33, 25],
+                backgroundColor: ["#FFE2E8", "#FEBFC7", "#B5B8B8", "#B4C9E1", "#CCE7F6"],
+            }]
+        };
+        new Chart(document.getElementById("enjoyChart"), {
+            type: "bar",
+            data: enjoyData,
+            options: { 
+                responsive: true,
+                maintainAspectRatio: true, 
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });    
+
+        const locationData = {
+            labels: ["Strongly Disagree", "Disagree", "Neither Agree nor Disagree", "Agree", "Strongly agree"],
+            datasets: [{
+                data: [0, 0, 0, 67, 33],
+                backgroundColor: ["#CCE7F6", "#FFE2E8", "#B5B8B8", "#FEBFC7", "#B4C9E1"],
+            }]
+        };
+        new Chart(document.getElementById("locationChart"), {
+            type: "pie",
+            data: locationData,
+            options: { 
+                responsive: true,
+                maintainAspectRatio: true
+            }
+        });
+
+        const onlineData = {
+            labels: ["Strongly Disagree", "Disagree", "Neither Agree nor Disagree", "Agree", "Strongly agree"],
+            datasets: [{
+                data: [8, 50, 8, 17, 17],
+                backgroundColor: ["#FFE2E8", "#FEBFC7", "#B5B8B8", "#B4C9E1", "#CCE7F6"],
+            }]
+        };
+        new Chart(document.getElementById("onlineChart"), {
+            type: "pie",
+            data: onlineData,
+            options: { 
+                responsive: true,
+                maintainAspectRatio: true
+            }
+        });
+
+        const enhancedData = {
+            labels: ["1 (Not enhanced)", "2", "3", "4", "5 (Enhanced)"],
+            datasets: [{
+                label: "Percentage of Respondents",
+                data: [0, 8, 25, 42, 25],
+                backgroundColor: ["#FFE2E8", "#FEBFC7", "#B5B8B8", "#B4C9E1", "#CCE7F6"],
+            }]
+        };
+        new Chart(document.getElementById("enhancedChart"), {
+            type: "bar",
+            data: enhancedData,
+            options: { 
+                responsive: true,
+                maintainAspectRatio: true, 
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });  
+
+        const influenceData = {
+            labels: ["Changing the way of thinking", "Gaining motivation", "Impacting on emotions", "Acquiring of knowledge", "Experiencing indirectly"],
+            datasets: [{
+                data: [25, 17, 50, 0, 8],
+                backgroundColor: ["#FFE2E8", "#FEBFC7", "#B4C9E1", "#B5B8B8", "#CCE7F6"],
+            }]
+        };
+        new Chart(document.getElementById("influenceChart"), {
+            type: "pie",
+            data: influenceData,
+            options: { 
+                responsive: true,
+                maintainAspectRatio: true
+            }
+        });
+
+        const feelData = {
+            labels: ["Anger", "Depression", "Regret", "Emptiness / Loneliness", "Pleasure", "Heartwarming", "Satisfaction"],
+            datasets: [{
+                data: [0, 0, 0, 8, 25, 17, 50],
+                backgroundColor: ["#B5B8B8", "#CCE7F6", "#D4D4D4", "#FFE2E8", "#FEBFC7", "#B4C9E1", "#CCE7F6"],
+            }]
+        };
+        new Chart(document.getElementById("feelChart"), {
+            type: "pie",
+            data: feelData,
+            options: { 
+                responsive: true,
+                maintainAspectRatio: true
+            }
+        });
+    </script>
+</body>
+</html>
